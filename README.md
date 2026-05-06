@@ -96,6 +96,3 @@ https://localhost:5001/swagger
 🔹 Status do orçamento (Aberto, Aprovado, Rejeitado)
 🔹 Logs e auditoria
 🔹 FluentValidation
-👨‍💻 Autor
-
-Projeto desenvolvido para fins de estudo e portfólio com foco em arquitetura .NET.
