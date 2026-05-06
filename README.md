@@ -70,7 +70,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
 - valor unitário > 0
 - O valor total é calculado automaticamente pela API
   
-###🧱 Arquitetura do projeto
+🧱 Arquitetura do projeto
 Oficina.Api
 │
 ├── Controllers        → Endpoints da API
@@ -84,7 +84,7 @@ Oficina.Api
 │
 ├── Infrastructure
 │   └── Repositories    → Acesso a dados
-###⚙️ Como executar o projeto
+⚙️ Como executar o projeto
 1️⃣ Clonar o repositório
 git clone https://github.com/seuusuario/oficina-api.git
 2️⃣ Acessar o projeto
