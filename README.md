@@ -61,14 +61,14 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
 }
 ```
 ###⚠️ Regras de negócio
-clienteId é obrigatório
-veiculoId é obrigatório
-Deve existir pelo menos 1 item no orçamento
-Cada item deve conter:
-descrição obrigatória
-quantidade > 0
-valor unitário > 0
-O valor total é calculado automaticamente pela API
+- clienteId é obrigatório
+- veiculoId é obrigatório
+- Deve existir pelo menos 1 item no orçamento
+- Cada item deve conter:
+- descrição obrigatória
+- quantidade > 0
+- valor unitário > 0
+- O valor total é calculado automaticamente pela API
 🧱 Arquitetura do projeto
 Oficina.Api
 │
