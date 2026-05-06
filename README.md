@@ -104,16 +104,16 @@ Oficina.Api
 ```
 ### ⚙️ Como executar o projeto
 1️⃣ Clonar o repositório
-git clone https://github.com/seuusuario/oficina-api.git
+ git clone https://github.com/seuusuario/oficina-api.git
 
 2️⃣ Acessar o projeto
-cd oficina-api
+ cd oficina-api
 
 3️⃣ Rodar a aplicação
-dotnet run
+ dotnet run
 
 4️⃣ Acessar Swagger
-https://localhost:5001/swagger
+ https://localhost:5001/swagger
 
 📌 Melhorias futuras
 - Integração com banco de dados (EF Core + SQL Server)
