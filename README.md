@@ -21,6 +21,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
 
 
 ### 📄 Request
+```
 {
   "clienteId": 10,
   "veiculoId": 25,
@@ -37,6 +38,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
     }
   ]
 }
+---
 ### 📤 Response
 {
   "id": 1,
