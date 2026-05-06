@@ -1,27 +1,42 @@
 # 🛠️ Oficina Mecânica API (.NET 6)
+
 API REST desenvolvida em **.NET 6** para gerenciamento de orçamentos de uma oficina mecânica.
+
 O sistema permite criar orçamentos de serviços automotivos com cálculo automático de valores e validações de regras de negócio.
 
+---
+
 ## 🚀 Tecnologias utilizadas
+
 - .NET 6
 - ASP.NET Core Web API
 - C#
 - Swagger (OpenAPI)
 - Arquitetura em camadas (Controller, Service, Domain, Repository)
 
+---
+
 ## 📌 Funcionalidades
+
 - ✔ Cadastro de orçamento
 - ✔ Cálculo automático do valor total
 - ✔ Validação de dados obrigatórios
 - ✔ Estrutura em camadas (Clean Architecture simplificada)
 - ✔ API documentada com Swagger
 
+---
+
+## 📥 Endpoint
+
 ### ➕ Criar orçamento
+
 `POST /api/orcamentos`
 
+---
 
 ### 📄 Request
-```
+
+```json
 {
   "clienteId": 10,
   "veiculoId": 25,
@@ -38,9 +53,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
     }
   ]
 }
-```
-### 📤 Response
-```
+📤 Response
 {
   "id": 1,
   "clienteId": 10,
@@ -59,17 +72,15 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
     }
   ]
 }
-```
-###⚠️ Regras de negócio
-- clienteId é obrigatório
-- veiculoId é obrigatório
-- Deve existir pelo menos 1 item no orçamento
-- Cada item deve conter:
-- descrição obrigatória
-- quantidade > 0
-- valor unitário > 0
-- O valor total é calculado automaticamente pela API
-  
+⚠️ Regras de negócio
+clienteId é obrigatório
+veiculoId é obrigatório
+Deve existir pelo menos 1 item no orçamento
+Cada item deve conter:
+descrição obrigatória
+quantidade > 0
+valor unitário > 0
+O valor total é calculado automaticamente pela API
 🧱 Arquitetura do projeto
 Oficina.Api
 │
