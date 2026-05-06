@@ -69,6 +69,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
 - quantidade > 0
 - valor unitário > 0
 - O valor total é calculado automaticamente pela API
+  
 ###🧱 Arquitetura do projeto
 Oficina.Api
 │
