@@ -84,7 +84,7 @@ Oficina.Api
 │
 ├── Infrastructure
 │   └── Repositories    → Acesso a dados
-⚙️ Como executar o projeto
+###⚙️ Como executar o projeto
 1️⃣ Clonar o repositório
 git clone https://github.com/seuusuario/oficina-api.git
 2️⃣ Acessar o projeto
