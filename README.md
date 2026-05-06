@@ -53,7 +53,9 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
     }
   ]
 }
-📤 Response
+```
+### 📤 Response
+```
 {
   "id": 1,
   "clienteId": 10,
@@ -72,6 +74,7 @@ O sistema permite criar orçamentos de serviços automotivos com cálculo autom�
     }
   ]
 }
+```
 ⚠️ Regras de negócio
 clienteId é obrigatório
 veiculoId é obrigatório
